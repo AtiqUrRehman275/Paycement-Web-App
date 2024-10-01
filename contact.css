@@ -1,0 +1,28 @@
+input,textarea{
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.req{
+    color: red;
+}
+
+textarea{
+    min-height: 150px;
+}
+
+.contactIcon{
+    background: #FF8FC7;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin-right: 8px;
+}

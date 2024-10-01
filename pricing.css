@@ -1,0 +1,49 @@
+.pricing{
+    max-width: 1300px;
+    margin: 0px auto;
+    display: flex;
+    overflow-x: auto;
+}
+
+.pricing > div{
+    width: 25%;
+    padding: 20px;
+    min-width: 200px;
+}
+.col1Img img{
+    height: 50px;
+}
+
+.col2{
+    background: #EFF8FF;
+    text-align: center;
+}
+
+.col4{
+    background: #FFF9FD;
+}
+
+.pricingBox{
+    margin-top: 80px;
+}
+
+.cardIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 43px;
+    height: 43px;
+    border-radius: 50%;
+    background: linear-gradient(166.91deg, #ff8fc7 9.43%, #ff80af 94.95%);
+    box-shadow: 2px 4px 4px rgba(255, 126, 205, 0.3);  
+}
+
+.pricingCard{
+    padding: 30px;
+    border: 1px solid #ccc;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+}

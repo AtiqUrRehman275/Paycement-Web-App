@@ -1,0 +1,308 @@
+/* banner */
+
+.heroText {
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 70px;
+  letter-spacing: -0.02em;
+  color: #0e1827;
+}
+
+.heroSubText {
+  font-size: 20px;
+  line-height: 32px;
+  color: #3a3a3a;
+}
+
+.heroWave {
+  width: 100%;
+  overflow: hidden;
+}
+.heroWave img {
+  width: 100%;
+  height: 100%;
+}
+
+.bannerPhone {
+  position: relative;
+  bottom: 120px;
+}
+
+.bannerPhone img {
+  height: 500px;
+}
+
+.pricingPhone img {
+  height: 480px;
+  margin-bottom: 30px;
+}
+
+.bannerCap {
+  margin-top: 8%;
+}
+
+.shortIconText {
+  padding-left: 150px;
+}
+.longIconText {
+  padding-left: 380px;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  background: #ff7ecd;
+  display: block;
+  border-radius: 50%;
+}
+
+.methodsImg {
+  position: relative;
+  bottom: 70px;
+  height: 450px;
+  overflow: hidden;
+}
+
+.video {
+  height: 510px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.video img {
+  width: 100%;
+  height: 100%;
+}
+.methodsImg img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.dotText {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 26px;
+  color: #3a3a3a;
+}
+
+.collectVia {
+  font-size: 25px;
+}
+.socialText {
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 35px;
+}
+
+.numBox {
+  width: 58px;
+  height: 58px;
+  background: #ff86b8;
+  border-radius: 5px;
+  display: block;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ellipsis {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 43px;
+  height: 43px;
+  border-radius: 50%;
+  background: linear-gradient(166.91deg, #ff8fc7 9.43%, #ff80af 94.95%);
+  box-shadow: 2px 4px 4px rgba(255, 126, 205, 0.3);
+}
+
+.payStep {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.sideWave img {
+  width: 100%;
+  height: 100%;
+}
+
+.customTrustedRow{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px 50px;
+}
+
+.trustedLogo{
+  max-width: 15%;
+  height: 80px;
+  margin: 30px 10px;
+}
+
+.trustedLogo img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.payCard{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #EEF7FC;
+  padding: 30px;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 30px;
+  min-height: 500px;
+}
+
+.map{
+  background-image: url("../images/map.png");
+  width: 100%;
+  height: 400px;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+
+
+.ellipsis i{
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 760px) {
+
+  .heroWave {
+    display: none;
+  }
+
+  .banner {
+    padding: 30px;
+  }
+
+  .pricing .row {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .pricingPhone,
+  .video {
+    display: flex;
+    justify-content: center;
+  }
+
+  .pricingPhone img {
+    width: 70%;
+    margin: 20px auto !important;
+    height: 430px;
+    object-fit: contain;
+  }
+
+  .video img {
+    width: 80%;
+  }
+
+  .video {
+    margin-top: 30px;
+    height: 350px;
+  }
+
+  .methodsImg {
+    position: unset;
+    height: 350px;
+    overflow: hidden;
+  }
+
+  .paySteps {
+    padding: 0px 20px;
+  }
+
+  .why_choose .col-sm-6 {
+    padding: 0px 40px;
+  }
+
+  .bannerPhone {
+    position: unset;
+    margin-top: 40px;
+  }
+
+  .bannerPhone img {
+    width: 100%;
+    height: 400px;
+  }
+  .shortIconText,
+  .longIconText {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .md-text-center{
+    justify-content: center;
+    text-align: center !important;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .bannerPhone img {
+    height: 300px;
+  }
+  .heroText {
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 55px;
+  }
+
+  .bannerCap {
+    align-items: center;
+    text-align: center;
+  }
+  .heroSubText {
+    font-size: 18px;
+  }
+  .trusted {
+    margin-top: 70px;
+  }
+  .topHeading {
+    font-size: 45px;
+    line-height: 60px;
+  }
+
+  .trustedLogo{
+    width: 48%;
+    max-width: unset;
+    margin: 30px 0px;
+  }
+  .customTrustedRow {
+    padding: 10px 40px;
+  }
+
+  .icon4,
+  .icon4 .ellipsis{
+    margin: 0px;
+  }
+
+  .icon3{
+    display: flex;
+    justify-content: center;
+  }
+
+  .icon2{
+    justify-content: flex-start !important;
+  }
+
+  .collectVia{
+    margin-top: 0px !important;
+  }
+}
